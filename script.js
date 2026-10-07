@@ -76,7 +76,7 @@ if (typeof document !== "undefined" && document.getElementById) {
     resultDetails.appendChild(issueLine);
 
     resultHeading.textContent = "Request Submitted";
-    resultSection.hidden = false;
+    resultSection.hidden = true;
   }
 
   if (helpDeskForm && fullName && email && issueType && confirmDetails && clearBtn && resultSection && resultHeading && resultDetails) {
