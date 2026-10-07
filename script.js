@@ -68,7 +68,7 @@ if (typeof document !== "undefined" && document.getElementById) {
     var issueLabel = selectedOption ? selectedOption.text : "";
 
     resultDetails.textContent = "";
-    nameLine.textContent = "Name: " + fullName.value.trim();
+    nameLine.textContent = "Name: " + fullName.value.trim(3);
     emailLine.textContent = "Email: " + email.value;
     issueLine.textContent = "Issue Type: " + issueLabel;
     resultDetails.appendChild(nameLine);
